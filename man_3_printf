@@ -1,0 +1,33 @@
+.TH man 3 "16 march 2021" "1.0" "_printf man page"
+.SH NAME
+.B _printf
+- Formatted output conversion and print data based in the original printf.
+.SH SYNOPSIS
+.BI _printf
+.IR FORMAT [ARGUMENT]
+
+.BI _printf
+.IR OPTION
+
+
+.SH DESCRIPTION
+.B _printf()
+Print data validated by a
+.IR format
+that we pass as a parameter to the function specifying the output of the entered data.
+
+.SH Flags
+ %c \n Prints a character
+\n
+ %s \n Prints a string
+\n
+ %d \n Prints a decimal
+\n
+ %i \n Prints an integer
+\n
+ %r \n Prints a reversed string
+\n
+ %R \n Converts the input to a Rot13 code
+
+.B Author
+Bladimir Pelaez
